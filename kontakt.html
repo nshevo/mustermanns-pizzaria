@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon.png">
+    <title>Mustermann's Pizzeria - Kontakt</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="./images/logo.png" alt="Logo">
+        <h1>Mustermann's Pizzeria</h1>
+    </header>
+
+    <nav>
+
+        <a href="index.html">Pizzeria</a>
+        <a href="leidenschaft.html">Unsere Leidenschaft</a>
+        <a href="speisekarte.html">Speisekarte</a>
+        <a class="active" href="kontakt.html">Kontakt</a>
+
+    </nav>
+
+    <div class="formcontainer">
+        <form id="contact" action="" method="post">
+            <h3>Kontaktformular</h3>
+            <h4>Wir versuchen Sie innerhalb von zwei Werktagen schriftlich oder telefonisch zu kontaktieren </h4>
+            <fieldset>
+                <input placeholder="Vor- und Nachname" type="text" tabindex="1" required autofocus>
+            </fieldset>
+            <fieldset>
+                <input placeholder="E-Mail-Adresse" type="email" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Telefonnummer" type="tel" tabindex="3" required>
+            </fieldset>
+            <fieldset>
+                <input placeholder="Betreff" type="text" tabindex="4" required>
+            </fieldset>
+            <fieldset>
+                <textarea placeholder="Nachricht" tabindex="5" required></textarea>
+            </fieldset>
+            <fieldset>
+                <button name="submit" type="submit" id="contact-submit">Absenden</button>
+            </fieldset>
+        </form>
+    </div>
+
+
+    <footer>
+        <hr>
+        <p>© Mustermann's Pizzeria 2022. Alle Rechte vorbehalten.</p>
+    </footer>
+
+</body>
+
+</html>
